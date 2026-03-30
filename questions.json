@@ -1,0 +1,78 @@
+{
+  "questions": [
+    {
+      "question": "What keyword is used to define a function in Python?",
+      "type": "multiple_choice",
+      "options": ["func", "define", "def", "function"],
+      "answer": "def",
+      "category": "Python Basics",
+      "time_limit": 15
+    },
+    {
+      "question": "A list in Python is immutable.",
+      "type": "true_false",
+      "answer": "false",
+      "category": "Data Structures",
+      "time_limit": 10
+    },
+    {
+      "question": "What built-in function returns the number of items in a list?",
+      "type": "short_answer",
+      "answer": "len",
+      "category": "Python Basics",
+      "time_limit": 20
+    },
+    {
+      "question": "Which of the following is used to handle exceptions in Python?",
+      "type": "multiple_choice",
+      "options": ["try/catch", "try/except", "catch/finally", "error/handle"],
+      "answer": "try/except",
+      "category": "Error Handling",
+      "time_limit": 20
+    },
+    {
+      "question": "What is the time complexity of looking up a key in a Python dictionary?",
+      "type": "multiple_choice",
+      "options": ["O(n)", "O(log n)", "O(1)", "O(n²)"],
+      "answer": "O(1)",
+      "category": "Data Structures",
+      "time_limit": 25
+    },
+    {
+      "question": "In Python, a generator function uses the 'yield' keyword instead of 'return'.",
+      "type": "true_false",
+      "answer": "true",
+      "category": "Advanced Python",
+      "time_limit": 15
+    },
+    {
+      "question": "What dunder method is called when an object is created?",
+      "type": "short_answer",
+      "answer": "__init__",
+      "category": "OOP",
+      "time_limit": 20
+    },
+    {
+      "question": "Which sorting algorithm has an average-case time complexity of O(n log n)?",
+      "type": "multiple_choice",
+      "options": ["Bubble Sort", "Insertion Sort", "Merge Sort", "Selection Sort"],
+      "answer": "Merge Sort",
+      "category": "Algorithms",
+      "time_limit": 30
+    },
+    {
+      "question": "Python's Global Interpreter Lock (GIL) prevents true multi-threaded CPU parallelism.",
+      "type": "true_false",
+      "answer": "true",
+      "category": "Advanced Python",
+      "time_limit": 25
+    },
+    {
+      "question": "What decorator is used to create a context manager from a generator function?",
+      "type": "short_answer",
+      "answer": "contextmanager",
+      "category": "Advanced Python",
+      "time_limit": 30
+    }
+  ]
+}
